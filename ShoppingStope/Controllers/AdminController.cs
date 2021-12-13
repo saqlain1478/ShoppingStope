@@ -51,6 +51,10 @@ namespace ShoppingStope.Controllers
                 return RedirectToAction("user");
             }
          }
+        public ActionResult Addproduct()
+        {
+            return View();
+        }
 
 
 
