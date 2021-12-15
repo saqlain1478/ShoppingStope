@@ -14,6 +14,17 @@ namespace ShoppingStope.Controllers
             return View();
         }
 
+        public ActionResult Registration()
+        {
+
+            return View();
+        }
+
+        public ActionResult UserProfile()
+        {
+
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -21,6 +32,12 @@ namespace ShoppingStope.Controllers
             return View();
         }
 
+        public ActionResult UpLoadProduct()
+        {
+            
+
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
