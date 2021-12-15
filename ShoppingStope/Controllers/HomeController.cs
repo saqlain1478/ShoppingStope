@@ -10,8 +10,7 @@ namespace ShoppingStope.Controllers
     {
         public ActionResult Index()
         {
-            string saq = "hello how are you";
-            string xz = string.Empty;
+            
             return View();
         }
 
