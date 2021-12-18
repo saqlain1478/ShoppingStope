@@ -27,7 +27,7 @@
 </div>
 <!-- Ec breadcrumb end -->
 <!-- Vendor upload section -->
-@using (Html.BeginForm("Addproduct", "Admin"))
+@using (Html.BeginForm("Addproduct", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken();
     <section class="ec-page-content ec-vendor-uploads section-space-p">
